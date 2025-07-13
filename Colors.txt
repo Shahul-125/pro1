@@ -1,0 +1,3 @@
+#3381ff - Blue
+#228a43 - Green
+#faffe0 - White
