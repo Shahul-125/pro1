@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Courses | EduConsult</title>
+<link rel="stylesheet" href="../static\colleges.css">
+</head>
+<body>
+
+  <header>
+    <h1>Our Courses</h1>
+    <p>Empowering your career through expert-led training.</p>
+  </header>
+
+  <main class="container">
+    <section class="courses-section">
+      <h2>Available Courses</h2>
+      <div class="course-list">
+        <div class="course-card" onclick="showColleges('webdev')">
+          <h3>Full Stack Web Development</h3>
+          <p>HTML, CSS, JS, Node.js, MongoDB and deployment tools.</p>
+        </div>
+
+        <div class="course-card" onclick="showColleges('datasci')">
+          <h3>Data Science & ML</h3>
+          <p>Python, Pandas, ML algorithms, and project-based learning.</p>
+        </div>
+
+        <div class="course-card" onclick="showColleges('marketing')">
+          <h3>Digital Marketing</h3>
+          <p>SEO, SEM, social media strategy, and analytics tools.</p>
+        </div>
+
+        <div class="course-card" onclick="showColleges('career')">
+          <h3>Career Guidance Bootcamp</h3>
+          <p>Resume tips, mock interviews, and career planning support.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="college-list" id="collegeList">
+      <h3>Partner Colleges</h3>
+      <ul id="collegeItems">
+        <li>Select a course to view colleges</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EduConsult. All rights reserved.</p>
+  </footer>
+
+<script src="../static\colleges.js"></script>
+</body>
+</html>
