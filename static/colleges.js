@@ -1,6 +1,6 @@
 function showColleges(course) {
   const collegeMap = {
-    webdev: ["ABC Institute of Technology", "City Web Academy", "CodeBridge University"],
+    engineering: ["VISTAS", "Satyabhama", "SRM University"],
     datasci: ["DataLab College", "AI Research Institute", "Innovate Tech Campus"],
     marketing: ["Digital Edge Academy", "Modern Business School", "AdGuru University"],
     career: ["MentorHub College", "FuturePath Institute", "ProCareer Campus"]
